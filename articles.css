@@ -1,0 +1,77 @@
+body {
+	background-color: darkCyan;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 3em;
+}
+
+#basketball-article {
+	background-color: green;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 5px;
+	color: yellow;
+	border: 2px solid white;
+	border-radius: 2%;
+}
+
+#golf-article {
+	background-color: yellow;
+	font-family: 'Bellefair', serif;
+	font-size: 25px;
+	line-height: 30px;
+	padding: 10px;
+	color: red;
+	border: 2px solid white;
+	border-radius: 5%;
+}
+
+
+#football-article {
+	background-color: red;
+	font-family: 'Fresca', sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	padding: 15px;
+	color: blue;
+	border: 2px solid white;
+	border-radius: 8%;
+}
+
+#soccer-article {
+	background-color: blue;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	line-height: 40px;
+	padding: 20px;
+	color: purple;
+	border: 2px solid white;
+	border-radius: 11%;
+}
+
+#hockey-article {
+	background-color: purple;
+	font-family: 'Merriweather', serif;
+	font-size: 40px;
+	line-height: 45px;
+	padding: 75px;
+	color: green;
+	border: 2px solid white;
+	border-radius: 30%;
+}
+
+.vertical-spacing {
+	margin-bottom: 10px;
+}
+
+
+
+/*  
+
+Each should have a border, but with rounded corners of different size (e.g.
+one article could have barely rounded borders, but the next one could be
+almost circular in shape)*/
